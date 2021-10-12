@@ -15,7 +15,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background-color: rgb(37, 37, 37);
+  background-color: rgb(22, 22, 22);
 }
 a {
   transition: all 0.3s ease;
@@ -48,16 +48,17 @@ blockquote {
 .tm-section-pad-top {
   padding-top: 80px;
   padding-bottom: 40px;
-  background-color: rgb(37, 37, 37);
+  background-color: rgb(22, 22, 22);
 }
 
 .tm-content-box {
-  padding-top: 20px;
-  padding-bottom: 40px;
+  /* padding-top: 20px;
+  padding-bottom: 40px; */
+  justify-content: center;
 }
 
 .tm-text-primary {
-  color: #37a;
+  color: white;
 }
 
 .tm-font-big {
@@ -87,7 +88,7 @@ blockquote {
 }
 
 .tm-navbar.scroll {
-  background-color: rgb(37, 37, 37);
+  background-color: rgb(22, 22, 22);
   border-bottom: 1px solid rgb(29, 29, 29);
 }
 
@@ -99,11 +100,11 @@ blockquote {
 
 .navbar-brand:hover,
 .tm-navbar.scroll .navbar-brand:hover {
-  color: #38b;
+  color: white;
 }
 
 .tm-navbar.scroll .navbar-brand {
-  color: #369;
+  color: white;
 }
 
 .nav-item {
@@ -112,17 +113,19 @@ blockquote {
 
 .tm-nav-link {
   color: white;
+  border-radius: 10px;
 }
 
 .tm-navbar.scroll .tm-nav-link {
-  color: #369;
+  color: white;
 }
 
 .tm-navbar.scroll .tm-nav-link:hover,
 .tm-navbar.scroll .tm-nav-link.current,
 .tm-nav-link:hover {
-  color: #fff;
-  background-color: #369;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
 }
 
 .navbar-toggler {
@@ -230,17 +233,18 @@ blockquote {
 }
 
 .tm-down-arrow {
-  color: #fff;
+  color: black;
+  border-radius: 10px;
   cursor: pointer;
-  background: #357;
+  background: white;
   padding: 15px 40px;
   transition: all 0.3s ease;
 }
 
 .tm-down-arrow:hover,
 .tm-down-arrow:focus {
-  color: #fff;
-  background: #37a;
+  /* color: #fff;
+  background: black; */
   padding: 20px 50px;
 }
 
@@ -305,10 +309,11 @@ blockquote {
   max-width: 1050px;
   margin: 0 auto;
   display: flex;
+  justify-content: center;
 }
 
 .tm-testimonial-item {
-  max-width: 290px;
+  /* max-width: 290px; */
   margin-left: 35px;
   margin-right: 35px;
 }
@@ -316,6 +321,8 @@ blockquote {
 .tm-testimonial-item img {
   border-radius: 5px;
   margin-bottom: 35px;
+  height: 250px;
+  width: auto;
 }
 
 .tm-testimonial-item figcaption {
@@ -333,8 +340,13 @@ blockquote {
 }
 
 .tm-gallery-container {
-  padding-top: 70px;
-  padding-bottom: 120px;
+  /* padding-top: 70px;
+  padding-bottom: 120px; */
+}
+
+.skill-icon {
+  height: 80px;
+  margin-right: 25px;
 }
 
 .tm-gallery-item {
@@ -457,6 +469,8 @@ figure.effect-honey img {
   opacity: 1;
   -webkit-transition: opacity 0.35s;
   transition: opacity 0.35s;
+  background: white;
+  border-radius: 5px;
 }
 
 figure.effect-honey:hover img {
@@ -715,6 +729,17 @@ p {
   display: none;
   width: 100%;
   z-index: 1;
+}
+
+.social-icon {
+  height: 100px;
+}
+
+.col-lg-5 {
+  padding: 25px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px;
 }
 
 .col-12 {
