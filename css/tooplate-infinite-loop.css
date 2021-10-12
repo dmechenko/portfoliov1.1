@@ -304,6 +304,7 @@ blockquote {
 .tm-testimonials-carousel {
   max-width: 1050px;
   margin: 0 auto;
+  display: flex;
 }
 
 .tm-testimonial-item {
@@ -315,8 +316,6 @@ blockquote {
 .tm-testimonial-item img {
   border-radius: 5px;
   margin-bottom: 35px;
-  height: 250px;
-  width: auto;
 }
 
 .tm-testimonial-item figcaption {
@@ -716,6 +715,12 @@ p {
   display: none;
   width: 100%;
   z-index: 1;
+}
+
+.col-12 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .owl-carousel .owl-stage {
   position: relative;
